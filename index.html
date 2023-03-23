@@ -21,7 +21,7 @@
 	        margin: 0;
 	        display: flex;
 	        justify-content: center;
-	        background-image: url("./background.png");
+	        background-image: url("./발바닥배경.PNG");
 }
 
         .container{
@@ -73,7 +73,7 @@
     }
 
     #image4 {
-        background-image: url('./다운로드.jpeg');
+        background-image: url('./2023.03.17.PNG');
     }
 
     .photo-description {
@@ -170,12 +170,14 @@
                     2022.11.10
                 </span>
             </div>
-            <div class="photo-frame">
-	            <iframe
-		            src="https://www.youtube.com/embed/4SyPs6JUXlg"
-                    frameborder="0"
-                    class="video"
-	            ></iframe>
+            <div id="image4" class="photo-frame"
+                onmouseover="showText(4)"
+                onmouseout="hideText(4)"
+                onclick="alertText(4)"
+            >
+                <span id= "desc4" class="photo-description">
+                    2023.03.17
+                </span>
             </div>
         </div>
         <div class="footer">
